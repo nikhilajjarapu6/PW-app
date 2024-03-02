@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 2px;
+    /* background-image: linear-gradient(white,black); */
+    background-color: rgb(236, 225, 204);
+    background-image: url(../PngItem_1304792.png);
+   background-position: 200px 100px;
+    backdrop-filter: blur(2px);
+    height: 100vh;
+    background-repeat:round;
+    background-size: cover;
+    background-size:contain;
+    
+    
+    height:1000px;
+}
+#header1{
+    width: 100%;
+    background-color: rgba(255, 166, 0, 0.293);
+    position: relative;
+}
+#div1{
+    /* border: 2px solid; */
+    width: 100%;
+    margin-bottom: 10px;
+    height: 50px;
+    
+   
+}
+#div1::before{
+    /* border: 2px solid; */
+    width: 100%;
+    margin-bottom: 10px;
+    height: 50px;
+    opacity: 0.5; 
+}
+
+#welcomeH1{
+    text-align: left;
+    font-family: Impact;
+     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Lilita One', cursive; */
+    color: rgb(255, 58, 47);
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-size:25px;
+    /* border: 1px solid; */
+    width: 91.5%;
+    padding-left: 3px;
+    position: relative;
+    top: 14px;
+    
+    
+}
+/* #welcomeH1:hover #jspSpan{
+    color:lime;
+} */
+#jspLogo{
+    width: 120px;
+    height: 60px;
+    float: right;
+    position: relative;
+    top: -10px;
+    left: -15px;
+    color: aqua;
+}
+#userTableNavBar{
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-collapse: collapse;
+}
+.userTableNavBar{
+    border: 1px solid black;
+    padding: 0px 50px;
+    font-size: large;
+    /* font-family: 'Chokokutai', cursive; */
+    /* font-family: 'Cherry Bomb One', cursive; */
+    font-family: 'Coronetscript';
+/*  
+    background-color: rgb(0, 85, 98); */
+    /* background-image: url(./navbar.jpg); */
+    color:black;
+    font-weight:lighter;
+    
+}
+#signupButton{
+    width: 100px;
+    height: 34px;
+    position: absolute;
+    left: 1070px;
+    bottom: 1px;
+}
+#signupButton:hover{
+    width: 100px;
+    height: 34px;
+    position: absolute;
+    left: 1070px;
+    bottom: 1px;
+    font-size: larger;
+}
+#aboutSelect{
+    font-size:medium;
+    width: 20px;
+    position: relative;
+    left: 5px;
+    background-color:transparent;
+    border: none;
+}
+#servicesSelect{
+    font-size:medium;
+    width: 18px;
+    position: relative;
+    left: 5px;
+    background-color: transparent;
+    border: none;
+}
+option{
+
+    background-color:dimgray;
+    background-image: url(./background.webp);
+    min-height: 50px;
+    color: rgba(255, 255, 255, 0.582);
+    filter: blur(10);
+    border: 1px solid black;
+}
+#div2{
+    width: 40%;
+    /* height: 200px; */
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.467);
+    margin-top: 100px;
+    line-height: 45px;
+    /* background-image: url(./div2\ background.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(64, 0, 255, 0.13));
+    /* background-color: orange; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+    color: white;
+    /* opacity:0.8; */
+}
+#h12{
+    font-size: larger;
+    color: red;
+}
+b{
+    color: greenyellow;
+}
+#facultyImg{
+    width:100px;
+    height:100px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+#mainSpan1{
+    float: left;
+    margin: 30px;
+    text-align: center;
+}
+/* #mainSection1{
+    /* border: 2px solid; */
+    /* margin-top: 30px; */
+    /* height: 300px; */
+/* } */
+
+
+#h3{
+    color: white;
+}
+#p{
+    color: lime;
+}
+
+.playstore{
+    position: relative;
+    top: 200px;
+}
+#userDiv{
+    border: 2px solid black;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    left: 40px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+.studentDetails{
+    position: relative;
+    left: -140px;
+    top: -20px;
+   
+    
+}
+
+
+#avatar{
+   size: 30px;
+   width: 50px;
+   font-size: 100px;
+   color:black;
+  position: relative;
+  top: -100px;
+  padding-top: 0px 0px;
+
+
+    /* text-shadow: 1px 1px 0px black,-1px -1px 0px black,1px -1px 0px black,-1px 1px 0px black; */
+    /* box-shadow: 2px 2px 5px white,-1px -1px 5px blue,3px 3px 5px orangered;
+    margin-bottom: 5px; */
+} 
+#avatardiv{
+    position: relative;
+    top: 20px;
+}
+#userdetails{
+    position: relative;
+    top: -55px;
+    left: 5px;
+}
+
+.creatAccountInputClasses{
+    font-size: large;
+    width:500px;
+    padding: 8px;
+    background-color:rgba(255, 254, 254, 0.404)
+    
+}
+.creatAccountInputClasses::placeholder{
+    font-size: large;
+    width:500px;
+    padding: 8px;
+    color:black;
+    
+}
+.creatAccountInputClasses:hover{
+    font-size: large;
+    width:500px;
+    padding: 8px;
+    background-color: rgba(255, 60, 0, 0.356);
+    color:white;
+}
+#createAccountEye{
+    position: relative;
+    left: -30px;
+}
+#createAccountdiv{
+    width: 100%;
+   line-height: 50px;
+}
+#minimumselect{
+    width: 1550px;
+}
+#proceedButton{
+    width: 150px;
+    height: 30px;
+    color: red;
+    position: relative;
+    top: -10px;
+    
+}
+#proceedButton:hover{
+    width: 150px;
+    height: 30px;
+    color:white;
+    position: relative;
+    top: -10px;
+    background-color: rgb(255, 60, 0);
+    
+}
+#paymentInputs{
+    line-height: 80px;
+}
+
+.paymentInputClass{
+    font-size: large;
+   
+    height: 50px;
+    width:500px;
+    padding: 8px;
+    background-color:rgba(255, 254, 254, 0.404);
+    
+}
+.paymentInputClass::placeholder{
+    font-size: large;
+    width:500px;
+    padding: 8px;
+    color:black;
+    
+}
+.paymentInputClass:hover{
+    font-size: large;
+    width:500px;
+    padding: 8px;
+    background-color: rgba(255, 60, 0, 0.356);
+    color:white;
+}
+#paymentInput{
+    width: 800px;
+    
+   line-height: 50px;
+}
+
+.receiveAmountInputClass{
+    font-size: large;
+    width:300px;
+    padding: 8px;
+    background-color:rgba(255, 254, 254, 0.404);
+}
+.sendAmountInputClass{
+    font-size: large;
+    width:300px;
+    padding: 8px;
+    background-color:rgba(255, 254, 254, 0.404);
+}
+.checkAmountInputClass{
+    font-size: large;
+    width:300px;
+    padding: 8px;
+    background-color:rgba(255, 254, 254, 0.404);
+}
+
+#closedEye3,#closedEye4{
+    text-shadow: none;
+    
+    position:relative;
+    right: 40px;
+    
+    font-size: 15px;
+}
+.deleteFormClass{
+    font-size: large;
+    width:300px;
+    padding: 8px;
+    background-color:rgba(255, 254, 254, 0.404);
+}
+.deleteFormClass:hover{
+    font-size: large;
+    width:300px;
+    padding: 8px;
+    /* background-color:rgba(255, 254, 254, 0.404); */
+    background-color: rgba(255, 60, 0, 0.356);
+}
+

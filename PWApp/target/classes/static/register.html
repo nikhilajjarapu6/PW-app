@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./regester.css">
+
+    <!-- below is the font awsome css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+
+    <section>
+        
+            <h1 id="registerH1">Register</h1>
+            <span id="emtyFieldErrorSpan"></span>
+        <div id="registerFormDiv">
+            <form action="saveUser" class="form" id="regester">
+                
+                <div class="form-input">
+                    <span class="icon"><i class="fa fa-user"></i></span>
+                    <input id="userId" class="registerInputClass" type="text" name="id" placeholder="Enter your id" required  >
+                </div>
+             
+                
+                <div class="form-input">
+                    <span class="icon"><i class="fa fa-user"></i></span>
+                    <input id="userName" required class="registerInputClass" type="text" placeholder="Enter User_Name" required >
+                  </div>
+              
+                <div class="form-input">
+                    <span class="icon"><i class="fa fa-envelope thin"></i></span>
+                    <input oninput="onInputEmail()" id="emailInput" required class="registerInputClass" type="email" placeholder="Enter Email">
+                  </div>
+             
+               
+                <div class="form-input">
+                    <span class="icon"><i class="fa fa-phone"></i></span>
+                    <input oninput="onInputphNo()" required id="phNo" class="registerInputClass" type="number" placeholder="Your Phone No">
+                  </div>
+                <span id="passwordStatus"></span>
+              
+              
+                <div class="form-input">
+                    <span class="icon"><i class="fa fa-lock"></i></span>
+                    <input oninput="onInputPassword()" id="password" required class="registerInputClass" type="password" placeholder="Enter Password"  ></span><i onmousedown="onclickClosedEye1()" onmouseup="onNoClickClosedEye1()" id="closedEye1" class="fa-solid fa-eye-slash"></i>
+                  </div>
+           <div class="form-input">
+            <span class="icon"><i class="fa fa-lock"></i></span>
+            <input oninput="onInputPassword()" id="confirmPassword" required class="registerInputClass" type="password" placeholder="Confirm Password"><i onmousedown="onclickClosedEye2()" onmouseup="onNoClickClosedEye2()" id="closedEye2" class="fa-solid fa-eye-slash"></i></span>
+        </div>  
+        <div class="form-input">
+            <button name="register" value="REGISTER" id="submitButton" onclick="submitButtonOnclick()">REGISTER</button><span id="or">Or</span> <a href="./login.html"><button id="loginPageButton" type="button" value="loginpage" onclick="login()">Login</button>
+         
+          </div>
+               
+            </form>
+        </div>
+    
+    </section>
+    <script src="./rehisterjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|PT+Sans:400,700");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-image: url(./PngItem_1304792.png);
+  background-size: cover;
+  backdrop-filter: blur(3px);
+  height: 100vh;
+  filter: brightness(90%)
+  
+ 
+}
+
+#registerFormDiv {
+  width: 450px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: #ff0e0e;
+  font-size: x-large;
+  padding: 30px 0;
+}
+
+#emptySpan {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-input {
+  max-width: 400px;
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border: 2px solid #eee;
+  padding: 5px 10px 5px 50px;
+  font-size: 18px;
+  line-height: 30px;
+  outline: 0;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+}
+
+input:hover {
+  background-color: rgba(0, 79, 207, 0.555);
+}
+
+
+.icon {
+  position: absolute;
+  left: 15px;
+  font-size: 25px;
+  color: #ff0000;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#submitButton {
+  font-size: medium;
+  width: 175px;
+  height: 35px;
+  position: relative;
+  left: -5px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  background-color: rgb(79, 167, 255);
+  color: red;
+  border: 0px;
+}
+
+#submitButton:hover {
+  font-size: medium;
+  width: 175px;
+  position: relative;
+  left: -5px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: red;
+}
+
+#loginPageButton {
+    font-size: medium;
+    width: 175px;
+    height: 35px;
+    position: relative;
+    left: -5px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: rgba(79, 167, 255, 0.788);
+    color: red;
+    border: 0px;
+}
+#loginPageButton:hover {
+    font-size: medium;
+    width: 175px;
+    height: 35px;
+    position: relative;
+    left: -5px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: white;
+    /* background-color: rgba(79, 167, 255, 0.788); */
+    color: red;
+    border: 0px;
+}
+
+#typepassword {
+  position: relative;
+  text-align: center;
+  color: rgb(242, 255, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#closedEye1 {
+  position: relative;
+  left: -50px;
+  
+  color: black;
+}
+
+#closedEye1:hover {
+  position: relative;
+  left: -50px;
+  
+  color: red;
+}
+
+#closedEye2 {
+    position: relative;
+    left: -50px;
+    
+    color: black;
+}
+
+#closedEye2:hover {
+    position: relative;
+    left: -50px;
+    
+    color: red;
+}
+
+.registerInputClass:hover::placeholder {
+  color: white;
+}
+.registerInputClass::placeholder {
+  color:black;
+ 
+}

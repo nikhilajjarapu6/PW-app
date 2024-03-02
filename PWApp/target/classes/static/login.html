@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./regester.css">
+
+    <!-- below is the font awsome css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+
+    <section>
+        <center>
+            <h1 id="loginH1">Login</h1>
+            <span id="emtyFieldErrorSpan"></span>
+        <div id="loginFormDiv">
+            <form class="form" id="regester">
+             
+                
+               
+                <div class="form-input">
+                    <span class="icon"><i class="fa fa-envelope thin"></i></span>
+                    <input oninput="OnInputLoginVerification()" id="emailId" class="inputClass" type="email" placeholder="Enter Your Email">
+                </div>
+             
+             
+              
+              
+                <div class="form-input">
+                    <span class="icon"><i class="fa fa-lock"></i></span>
+                    <input oninput="OnInputLoginVerification()" id="passwordId" class="inputClass" type="password" placeholder="Enter Your Password">  
+                </div>
+          
+        <div class="form-input">
+            <button name="register" value="REGISTER" id="submitButton" onclick="submitButtonOnclick()">REGISTER</button><span id="or">Or</span> 
+            <button onclick="OnClickLogins()" id="loginButton" type="button" value="login">login</button>
+         
+          </div>
+               
+            </form>
+        </div>
+    </center>
+    </section>
+    <script src="./loginjs.js"></script>
+</body>
+</html>
